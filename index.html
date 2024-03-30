@@ -11,24 +11,27 @@
 
 <body>
     <header>
-        <p class="bg-purple-500 text-center text-white py-3 mb-3 text-xs">Introducing Ballpark -
-            Simple surveys and user testing
-            for
-            prototype
-            <button
-                class="bg-transparent hover:bg-white text-white font-semibold hover:text-black py-2 px-3 mr-2 border border-white hover:border-transparent rounded-full">
-                Tray for free</button>
+        <div class="bg-purple-500 justify-center flex items-baseline mb-2 py-3">
+            <p class="text-white mr-3 text-xs tracking-wider">Introducing Ballpark - Simple
+                surveys and user
+                testing for prototype
+            </p>
+            <a href="#"
+                class="bg-transparent hover:bg-white text-white font-semibold hover:text-black border border-white hover:border-transparent rounded-full text-right py-0.5 px-2 text-xs">Tray
+                for free</a>
             <svg xmlns="http://www.w3.org/2000/svg"
-                class="absolute top-0 right-0 w-5 h-5 cursor-pointer mt-2 mr-2 hover:text-black " viewBox="0 0 24 24"
+                class="absolute top-0 right-0 w-3 h-3 cursor-pointer mt-2 mr-2 hover:text-black " viewBox="0 0 24 24"
                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <line x1="18" y1="6" x2="6" y2="18"></line>
                 <line x1="6" y1="6" x2="18" y2="18"></line>
             </svg>
-        </p>
+        </div>
 
-        <nav class="flex items-center justify-between flex-wrap bg-white p-0 mx-8 my-2 sticky top-0 z-50">
+
+
+        <nav class="flex items-center justify-between flex-wrap bg-white p-0 mx-10 lg:mx-36 my-2 sticky top-0 z-50">
             <div class="flex items-center text-white mr-5">
-                <img src="img/logo.PNG" width="120" height="120">
+                <img src="img/logo.PNG" width="80" height="80">
             </div>
             <div class="block lg:hidden">
                 <button
@@ -40,45 +43,45 @@
                 </button>
             </div>
             <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-                <div class="text-sm lg:flex-grow text-right">
+                <div class="text-xs lg:flex-grow text-right hidden lg:block">
                     <a href="#responsive-header"
-                        class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-blue-400 font-semibold mr-4 text-xl">
+                        class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-blue-400 font-semibold mr-4 text-xs">
                         <span style="display: inline-block; vertical-align: middle;">Features</span>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="w-6 h-6 inline-block align-middle">
+                            stroke="currentColor" class="w-3 h-3 inline-block align-middle">
                             <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                         </svg>
                     </a>
                     <a href="#responsive-header"
-                        class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-blue-400 mr-4 font-semibold text-xl">
+                        class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-blue-400 mr-4 font-semibold text-xs">
                         Examples
                     </a>
                     <a href="#responsive-header"
-                        class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-blue-400 font-semibold mr-4 text-xl">
+                        class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-blue-400 font-semibold mr-4 text-xs">
                         <span style="display: inline-block; vertical-align: middle;">Blog and more</span>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="w-6 h-6 inline-block align-middle">
+                            stroke="currentColor" class="w-3 h-3 inline-block align-middle">
                             <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                         </svg>
                     </a>
                     <a href="#responsive-header"
-                        class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-blue-400 font-semibold mr-4 text-xl">
+                        class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-blue-400 font-semibold mr-4 text-xs">
                         Enterprise
                     </a>
                     <a href="#responsive-header"
-                        class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-blue-400 font-semibold mr-4 text-xl">
+                        class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-blue-400 font-semibold mr-4 text-xs">
                         Pricing
                     </a>
                     <a href="#responsive-header"
-                        class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-blue-400 font-semibold mr-4 text-xl">
+                        class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-blue-400 font-semibold mr-4 text-xs">
                         Sign in
                     </a>
                 </div>
             </div>
 
-            <div>
+            <div class="hidden lg:block">
                 <a href="#"
-                    class="bg-blue-500 hover:bg-white text-white font-semibold hover:text-black py-4 px-7 border border-white hover:border-transparent rounded-full text-right text-xl">Signup
+                    class="bg-blue-400 hover:bg-blue-200 text-white py-2 px-2 border-b-4 border-blue-950 hover:border-blue-500 rounded-full text-xs tracking-wider">Signup
                     free</a>
             </div>
             </div>
@@ -87,44 +90,51 @@
     </header>
     <main>
         <main>
-            <article class="flex flex-col items-center bg-transparent mt-8 lg:mt-8">
-                <div class="flex lg:flex-row flex-col my-2 mx-2 justify-center">
-                    <div class="flex items-center flex-wrap">
-                        <div class="max-w-sm rounded overflow-hidden">
-                            <p class="font-bold text-4xl mb-7">Rapid prototyping, testing and handoff for modern design
-                                teams</p>
-                            <p class="text-3sxl mb-5">Marvel has everything you need to bring ideas to life and
-                                transform how you
-                                create digital products with your team. Placing the power of design in everyone's hands.
+
+            <article class="flex flex-col bg-transparent mt-10">
+                <div class="max-w-full bg-white rounded-lg overflow-hidden lg:flex justify-center mx-auto">
+                    <div class="flex items-center lg:w-2/2">
+                        <div class="max-w-sm rounded overflow-hidden mx-auto lg:mx-0">
+                            <h1 class="font-bold text-3xl mb-7 text-center lg:text-start">Rapid prototyping, testing and
+                                handoff for modern design teams</h1>
+                            <p class="text-2sxl mb-5 text-center lg:text-left">Marvel has everything you need to bring
+                                ideas to life and
+                                transform how
+                                you create digital products with your team. Placing the power of design in everyone's
+                                hands.
                             </p>
-                            <div class="flex flex-col">
+                            <div class="flex justify-center lg:justify-start">
                                 <button
-                                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-5 px-6 rounded-full mb-4 flex">
+                                    class="bg-blue-500 hover:bg-blue-700 text-white py-5 px-6 rounded-full mb-4 flex text-sm">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                         stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2">
                                         <path stroke-linecap="round" stroke-linejoin="round"
                                             d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                                     </svg>
-                                    <span>Sign up Free with email</span>
+                                    Sign up Free with email
                                 </button>
                                 <button
-                                    class="bg-transparent hover:bg-red-600 text-black hover:text-white font-bold py-4 px-6 rounded-full mb-4 flex "><svg
-                                        width="20" height="20" fill="currentColor" class="mr-2" viewBox="0 0 1792 1792"
+                                    class="bg-transparent hover:bg-red-600 text-black hover:text-white font-bold py-4 px-6 rounded-full mb-4 flex text-sm">
+                                    <svg width="20" height="20" fill="currentColor" class="mr-2" viewBox="0 0 1792 1792"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="M896 786h725q12 67 12 128 0 217-91 387.5t-259.5 266.5-386.5 96q-157 0-299-60.5t-245-163.5-163.5-245-60.5-299 60.5-299 163.5-245 245-163.5 299-60.5q300 0 515 201l-209 201q-123-119-306-119-129 0-238.5 65t-173.5 176.5-64 243.5 64 243.5 173.5 176.5 238.5 65q87 0 160-24t120-60 82-82 51.5-87 22.5-78h-436v-264z">
                                         </path>
-                                    </svg> Sign
-                                    up
-                                    Free with Google</button>
+                                    </svg> Sign up Free with Google
+                                </button>
                             </div>
                         </div>
                     </div>
-                    <img src="img/00.jpg" alt="" srcset="">
+
+                    <div class="p-5 lg:w-2/4">
+                        <img src="img/00.jpg" alt="" srcset="">
+                    </div>
                 </div>
+
             </article>
 
-            <article class="w-full bg-transparent p-4 rounded-lg mt-4 max-w-xl overflow-hidden mx-auto">
+
+            <article class="w-full bg-transparent  text-gray-500 p-4 rounded-lg mt-4 max-w-xl overflow-hidden mx-auto">
                 <div class="flex flex-row space-x-8 items-center justify-center flex-wrap">
                     <svg width="86" height="40" viewBox="0 0 86 40" data-reactid="481">
                         <path
@@ -235,14 +245,14 @@
                 </div>
             </article>
 
-            <article class="w-full bg-transparent p-4 rounded-lg mt-4 max-w-3xl overflow-hidden mx-auto">
+            <article class="w-full bg-transparent p-3 rounded-lg mt-4 max-w-3xl overflow-hidden mx-auto">
                 <div class="text-center my-4">
                     <p class="font-bold text-4xl mb-6">Your design process, in one place</p>
                     <p>Wireframe, design and prototype fast with our intuitive design and prototyping tools. Instantly
                         generate design specs and connect integrations that power up your workflow. From low to
                         high-fidelity, Marvel supports you every step of the way.</p>
                     <button
-                        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-5 px-6 rounded-full mb-4 mx-auto mt-4">Find
+                        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-5 rounded-full mb-4 mx-auto mt-3">Find
                         out more</button>
                 </div>
             </article>
@@ -292,7 +302,7 @@
                     <div class="lg:w-2/2">
                         <img src="img/05.png" alt="Image" class=" w-full h-auto lg:h-full">
                     </div>
-                    <div class="p-5 lg:w-2/4">
+                    <div class="p-5 lg:w-2/4 ">
                         <p class="font-bold text-lg lg:text-xl mb-4 lg:mb-7">The world's most innovative
                             companies use Marvel everyday to scale design teams</p>
                         <p class="text-md lg:text-lg mb-4 lg:mb-5">The digital products, from around the
@@ -302,12 +312,14 @@
                             collaborate and optimise prototypes before development.</p>
                         <div class="flex lg:justify-start mt-8">
                             <button
-                                class="bg-transparent hover:bg-blue-500 text-black hover:text-white font-bold py-4 px-6 rounded-full">Read
+                                class="bg-transparent hover:bg-blue-500 text-black hover:text-white font-bold py-4 px-6 rounded-full border border-blue-500">Read
                                 Customer Stories</button>
+
                         </div>
                     </div>
                 </div>
             </article>
+
             <article class="flex flex-col bg-transparent mt-10">
                 <div class="max-w-6xl bg-white rounded-lg overflow-hidden lg:flex">
                     <div class="p-5 lg:w-2/4">
@@ -318,7 +330,7 @@
                             features that focus on helping large teams make design more productive.</p>
                         <div class=" lg:justify-start mt-8">
                             <button
-                                class="bg-transparent hover:bg-blue-500 text-black hover:text-white font-bold py-4 px-6 rounded-full">Learn
+                                class="bg-transparent hover:bg-blue-500 text-black hover:text-white font-bold py-4 px-6 rounded-full border border-blue-500">Learn
                                 More</button>
                         </div>
                     </div>
@@ -327,23 +339,15 @@
                     </div>
                 </div>
             </article>
-
-            <!-- <article class="bg-purple-500">
-                di
-                <p class="font-bold text-lg text-white lg:text-xl mb-4 lg:mb-7 ">Power up your workflow with
-                    integrations into your
-                    favourite tools</p>
-
-            </article> -->
         </main>
 
         <footer class="bg-black text-white py-8 mt-8">
             <div class="container mx-auto">
                 <div class="grid grid-cols-1 lg:grid-cols-5 gap-8">
-                    <div>
+                    <div class="text-center lg:text-left">
                         <img src="img/logob.PNG" alt="Logo">
                     </div>
-                    <div>
+                    <div class="text-center lg:text-left">
                         <h3 class="text-lg font-bold mb-4">Platform</h3>
                         <ul>
                             <li><a href="#" class="hover:text-blue-500">Why Marvel</a></li>
@@ -354,7 +358,7 @@
                             <li><a href="#" class="hover:text-blue-500">Developer API</a></li>
                         </ul>
                     </div>
-                    <div>
+                    <div class="text-center lg:text-left">
                         <h3 class="text-lg font-bold mb-4">Features</h3>
                         <ul>
                             <li><a href="#" class="hover:text-blue-500">Design</a></li>
@@ -366,7 +370,7 @@
                             <li><a href="#" class="hover:text-blue-500">Integrations</a></li>
                         </ul>
                     </div>
-                    <div>
+                    <div class="text-center lg:text-left">
                         <h3 class="text-lg font-bold mb-4">Resources</h3>
                         <ul>
                             <li><a href="#" class="hover:text-blue-500">Help Center</a></li>
@@ -385,7 +389,7 @@
                             <li><a href="#" class="hover:text-blue-500">Careers</a></li>
                         </ul>
                     </div>
-                    <div>
+                    <div class="text-center lg:text-left">
                         <h3 class="text-lg font-bold mb-4">Follow</h3>
                         <ul>
                             <li><a href="#" class="hover:text-blue-500">Twitter</a></li>
@@ -398,6 +402,7 @@
                 </div>
             </div>
         </footer>
+
 
     </main>
 
